@@ -27,9 +27,9 @@ ctypes.windll.kernel32.SetConsoleTitleW(f'[Alucard Selfbot v{SELFBOT.__version__
 with open('config.json') as f:
     config = json.load(f)
 
-token = config.get('token')
+token = config.get('Nzk5OTEyNTM4NDg1NTU1MjIy.YE0sjw.fZLShKXX4IHwteLRViLt0BgroGk')
 password = config.get('password')
-prefix = config.get('prefix')
+prefix = config.get('$')
 
 giveaway_sniper = config.get('giveaway_sniper')
 slotbot_sniper = config.get('slotbot_sniper')
